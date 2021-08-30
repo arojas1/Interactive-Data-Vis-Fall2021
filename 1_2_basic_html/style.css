@@ -17,3 +17,27 @@ h3 {
 p {
   font-size: 1em;
 }
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+sub {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.tabletitle {
+  font-size: x-large;
+  border: none;
+  padding: 20px;
+}
+
