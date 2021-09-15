@@ -8,7 +8,16 @@
   <body>
     <h1>Hello World!</h1>
     <h3>Tutorial Assignment: 1_3_intro_to_js </h3>
-    <!-- add any HTML you might need here, like a button or a div -->
+    <div>
+      <label id="label">To get started, please enter your name:</label>
+      <input type="text" id="name-input">
+      <button id="name-submit" onclick="updateName()">Submit</button>
+      <p id="printInfo"></p>
+    </div>
+    <div>
+      <button id="increaseAge" onclick="increaseAge()">Increase Age (+1 Year)</button>
+      <button id="decreaseAge" onclick="decreaseAge()">Decrease Age (-1 Year)</button>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

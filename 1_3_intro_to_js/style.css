@@ -13,9 +13,13 @@ h3 {
   margin: 0.25em 0;
 }
 
-p {
+label, p {
   font-family: serif;
   font-size: 1em;
+}
+
+label {
+  padding:5px;
 }
 
 section {
